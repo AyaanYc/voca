@@ -14,10 +14,13 @@ export default function TodoApp() {
         if(`${todo}`== ''){
             return;
         } else {
-            setTodoList(preVal => preVal=`${todo}`);
+            setTodoList(preVal => [todo, ...preVal]);
         }
-
     }
+    useEffect(
+        () => console.log(todoList), []
+    )
+    console.log(todoList);
     return (
         <div>
             <h1>My Todo List</h1>

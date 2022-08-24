@@ -19,7 +19,7 @@ function Hello() {
 export default function Exam6() {
     const [ showing, setShowing ] = useState(false);
     const onClickBtn = () => {
-        setShowing(preVal => !preVal)
+        setShowing(preVal => !preVal) 
     }
 
     return (
