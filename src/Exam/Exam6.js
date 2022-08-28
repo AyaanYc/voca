@@ -12,7 +12,7 @@ function Hello() {
         <div>
             <strong>Hello!!!</strong>
         </div>
-    );
+    ); 
 
 }
 
